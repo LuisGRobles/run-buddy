@@ -40,11 +40,11 @@
             <!-- Add for element-->
             <form>
                 <label for="name">Enter full name:</label>
-                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
                 <label for="email">Enter email address:</label>
-                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
                 <label for="phone">Enter a telephone number:</label>
-                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
                 <p>
                     Have you worked out with a trainer before?
                     <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -70,7 +70,10 @@
     <section id="what-we-do" class="intro">
         <h2 class="section-title primary-border">What We Do</h2>
         <p>
-            butcher selfies chambray shabby chic gentrigy readymade yr Echo Park XOXO Tumblr normcore Bansky direct trade Blue Bottle chillwave you probably haven't heard of them singe-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft   
+            butcher selfies chambray shabby chic gentrigy readymade yr Echo Park XOXO Tumblr normcore Bansky direct
+            trade Blue Bottle chillwave you probably haven't heard of them singe-origin coffee Vice fanny pack fixie Odd
+            Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings
+            narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
         </p>
     </section>
 
@@ -98,15 +101,53 @@
         </div>
 
         <div>
-            <img src="assets/css/images/01-04-svgs/step-4.svg" alt="" />
+            <img src="./assets/css/images/01-04-svgs/step-4.svg" alt="" />
             <h3>Step 4: <span>See Results</span></h3>
             <p>Bi-weekly checkins with your trainer will keep you focused</p>
         </div>
     </section>
 
     <!-- "meet the trainers" section-->
-    <section>
-        <h2>Meet The Trainers</h2>
+    <section id="your-trainers" class="trainers">
+        <h2 class="section-title primary-border">
+            Meet The Trainers</h2>
+        <article class="trainer">
+            <img src="./assets/css/images/01-05-trainers/trainer-1.jpg"
+                alt="Arron Stephens in his workout clothes, ready to pump iron" />
+            <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat blanditiis quidem dolores, expedita
+                    repellat dolorem temporibus delectus, veritatis voluptates voluptatem minima exercitationem cumque
+                    nulla magni ducimus praesentium porro alias! Placeat.
+                </p>
+            </div>
+        </article>
+        <!-- section trainer bio -->
+        <article class="trainer">
+            <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Endurance</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quisquam suscipit exercitationem vel
+                    dolore maxime expedita doloribus esse, voluptas recusandae atque inventore placeat soluta,
+                    temporibus aliquam sapiente? Et, eligendi facilis?
+                </p>
+            </div>
+            <img src="./assets/css/images/01-05-trainers/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+        </article>
+        <!-- third trainer bio -->
+        <article class="trainer">
+            <img src="./assets/css/images/01-05-trainers/trainer-3.jpg"
+                alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+            <div class="trainer-bio text-left">
+                <h3>Harry "the Headband" Smith</h3>
+                <h4>Strength</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquam ducimus architecto optio eos
+                    vitae odio, libero sunt velit. Perspiciatis labore aliquam delectus repudiandae dicta laborum eius
+                    porro exercitationem perferendis?
+                </p>
+            </div>
+        </article>
     </section>
     <!-- "reach out" section-->
     <section>
